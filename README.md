@@ -4,6 +4,7 @@
 > "Tout le monde a un prix."
 
 JUDA est un jeu social persistant où les joueurs cherchent à devenir les plus riches.
+"Le véritable objectif de JUDA est de devenir le plus riche... loyalement ou déloyalement. Mais le déshonneur a un prix."
 
 Le monde ne tourne pas autour des combats.
 
