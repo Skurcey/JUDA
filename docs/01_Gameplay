@@ -1,0 +1,203 @@
+# Gameplay
+
+## Le principe
+
+JUDA est un jeu social persistant où chaque joueur tente de construire sa propre histoire.
+
+Il n'existe pas de chemin unique.
+
+Vous êtes libre de devenir un citoyen modèle...
+
+...ou un escroc reconnu de tous.
+
+Le monde évolue grâce aux actions des joueurs.
+
+---
+
+# Boucle de jeu
+
+La boucle principale est volontairement simple.
+
+```
+Observer
+
+↓
+
+Décider
+
+↓
+
+Agir
+
+↓
+
+Conséquences
+
+↓
+
+Nouvelles opportunités
+```
+
+Chaque action modifie légèrement le monde.
+
+Une simple conversation peut devenir une alliance.
+
+Un vol peut déclencher un procès.
+
+Une donation peut lancer un grand projet.
+
+---
+
+# Observer
+
+Le joueur arrive dans un lieu.
+
+Le jeu décrit l'ambiance.
+
+Les personnages présents.
+
+Les bâtiments.
+
+Les objets remarquables.
+
+Les événements récents.
+
+Le joueur clique sur ce qui attire son attention.
+
+---
+
+# Décider
+
+Chaque élément du monde propose des actions contextuelles.
+
+Exemple :
+
+Le boulanger
+
+○ Observer
+
+○ Parler
+
+○ Acheter
+
+○ Travailler
+
+○ Aider
+
+○ Voler
+
+Toutes les actions ne sont pas toujours disponibles.
+
+Elles dépendent notamment :
+
+- des compétences découvertes ;
+- des objets transportés ;
+- du lieu ;
+- du contexte ;
+- des autres joueurs.
+
+---
+
+# Agir
+
+Une action peut produire :
+
+- un objet ;
+- une information ;
+- une relation ;
+- un changement économique ;
+- une conséquence judiciaire ;
+- un événement narratif.
+
+Les conséquences peuvent être immédiates...
+
+...ou apparaître plusieurs jours plus tard.
+
+---
+
+# Les conséquences
+
+Chaque décision laisse une trace.
+
+Le joueur construit progressivement :
+
+- sa réputation ;
+- son réseau ;
+- sa fortune ;
+- ses ennemis ;
+- ses alliés.
+
+Le jeu récompense davantage les conséquences intéressantes que les récompenses immédiates.
+
+---
+
+# Les histoires
+
+Le véritable objectif de JUDA est simple : devenir le plus riche.
+
+Comment vous y parviendrez... n'appartient qu'à vous.
+
+Travail, commerce, politique, corruption ou trahison...
+
+Tous les chemins mènent à la fortune.
+
+Mais le déshonneur a toujours un prix.
+
+Le véritable objectif est de vivre une histoire.
+
+Une bonne partie peut donner naissance à des anecdotes comme :
+
+"Nous avons construit un pont."
+
+"Le maire a disparu avec l'argent."
+
+"Le juge s'est trompé de coupable."
+
+"Mon meilleur ami m'a dénoncé."
+
+Ces histoires sont la récompense principale du jeu.
+
+---
+
+# Les interactions
+
+JUDA encourage :
+
+- la coopération ;
+- le commerce ;
+- la négociation ;
+- la politique ;
+- la trahison ;
+- le pardon.
+
+Le jeu est conçu pour que les joueurs aient besoin les uns des autres.
+
+---
+
+# Le rythme
+
+JUDA n'est pas un jeu de réflexes.
+
+Le joueur peut prendre son temps.
+
+Lire.
+
+Observer.
+
+Réfléchir.
+
+Discuter.
+
+Chaque connexion doit donner l'impression d'entrer dans une ville qui continue d'exister même en son absence.
+
+---
+
+# Notre question
+
+À chaque nouvelle mécanique, nous devons nous demander :
+
+> Cette fonctionnalité créera-t-elle une histoire que les joueurs auront envie de raconter ?
+
+Si la réponse est non...
+
+Elle n'a probablement pas sa place dans JUDA.
