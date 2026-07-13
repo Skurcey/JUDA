@@ -174,7 +174,9 @@ Aucun boulanger n'a été maltraité pendant la conception de ce projet.
 Enfin...
 pas volontairement.
 
----
+---Le personnage n'est pas défini à la création.
+
+Il est défini par les rencontres qu'il fait.
 
 # Licence
 
