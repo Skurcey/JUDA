@@ -107,6 +107,12 @@ Elle ne crée jamais de nouvelles règles.
 
 ---
 
+## 6. Le lore est inventé par les joueurs au fur et a mesure des parties.
+
+Les développeurs créent les règles.
+
+Les joueurs créent l'Histoire.
+
 # Notre règle d'or
 
 Avant d'ajouter une fonctionnalité,
