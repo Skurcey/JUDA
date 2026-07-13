@@ -166,6 +166,14 @@ Base : SQLite
 Narrateur : LLM local (facultatif)
 
 ---
+⚠️
+
+Aucun boulanger n'a été maltraité pendant la conception de ce projet.
+
+Enfin...
+pas volontairement.
+
+---
 
 # Licence
 
