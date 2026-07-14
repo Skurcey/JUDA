@@ -1,4 +1,344 @@
-# Mini-jeu de Craft
+# Mini-jeux
+
+## Principe général
+
+Les mini-jeux de JUDA doivent rendre les actions répétitives plus vivantes sans transformer le jeu en épreuve de réflexes permanente.
+
+Ils doivent être :
+
+- simples à comprendre ;
+- rapides à lancer ;
+- réutilisables pour plusieurs métiers ;
+- accessibles aux joueurs moins rapides ;
+- suffisamment exigeants pour permettre aux meilleurs artisans de se distinguer.
+
+Le premier mini-jeu développé sera celui du craft.
+
+---
+
+# Mini-jeu de craft
+
+## Concept
+
+Le mini-jeu de craft est inspiré de **Simon**, mais il repose davantage sur le rythme et l’attention que sur la mémoire.
+
+Le joueur utilise principalement un menu radial composé de cinq positions.
+
+Chaque position contient une action liée au métier pratiqué.
+
+Exemple pour la fabrication du pain :
+
+- Pétrir
+- Mouiller
+- Enfariner
+- Laisser reposer
+- Cuire
+
+Plus rarement, une action est remplacée par une lettre du clavier.
+
+---
+
+## Déroulement
+
+Lorsqu’une fabrication commence, une action est désignée aléatoirement dans le menu radial.
+
+Le joueur dispose d’un délai limité pour l’activer.
+
+La première action peut laisser environ trois secondes au joueur.
+
+Cependant, les actions suivantes apparaissent rapidement et le rythme s’accélère progressivement.
+
+Lorsqu’une action est validée :
+
+1. sa position reçoit immédiatement une nouvelle action ;
+2. une nouvelle cible est choisie ;
+3. le joueur doit continuer sans interrompre la cadence.
+
+Le mini-jeu forme ainsi une file continue d’actions à effectuer.
+
+---
+
+## Validation anticipée
+
+Le joueur peut parfois cliquer sur la prochaine action avant qu’elle ne devienne officiellement la cible.
+
+Dans ce cas :
+
+- l’action est considérée comme validée ;
+- une erreur est tout de même comptabilisée.
+
+Cela évite de bloquer brutalement la série tout en sanctionnant légèrement une mauvaise anticipation.
+
+---
+
+## Erreurs
+
+Le joueur dispose de cinq erreurs autorisées pendant une série.
+
+Une erreur peut être provoquée par :
+
+- une action effectuée trop tard ;
+- une mauvaise position sélectionnée ;
+- une mauvaise lettre pressée ;
+- une validation anticipée.
+
+Lorsqu’une erreur survient, le mini-jeu continue immédiatement.
+
+Le joueur doit se reprendre sur l’action suivante.
+
+Le but est de casser le rythme sans obliger le joueur à recommencer toute la fabrication.
+
+---
+
+## Fabrication et quantité
+
+Plus le joueur tient longtemps, plus il fabrique d’objets avec les matériaux engagés.
+
+Une même session de craft peut donc produire plusieurs exemplaires.
+
+Exemple :
+
+- petite série réussie : 2 pains ;
+- bonne série : 5 pains ;
+- excellente série : 8 pains ;
+- série parfaite : quantité maximale.
+
+La quantité maximale dépend :
+
+- de la recette ;
+- des matériaux disponibles ;
+- de l’outil utilisé ;
+- de la durée maximale autorisée pour la fabrication.
+
+Le joueur ne peut jamais produire plus d’objets que ses ressources ne le permettent.
+
+---
+
+## Qualité
+
+La qualité augmente également avec la performance du joueur.
+
+Elle dépend notamment :
+
+- du nombre d’actions correctement effectuées ;
+- du nombre d’erreurs ;
+- de la durée de la série ;
+- de la difficulté de l’objet ;
+- éventuellement de la maîtrise cachée du personnage.
+
+Exemple indicatif :
+
+| Erreurs | Résultat |
+|---:|---|
+| 0 | Qualité exceptionnelle |
+| 1 | Très bonne qualité |
+| 2 | Bonne qualité |
+| 3 | Qualité correcte |
+| 4 | Qualité médiocre |
+| 5 | Fabrication interrompue |
+
+Les valeurs exactes devront être testées pendant le prototype.
+
+---
+
+## Vitesse
+
+Chaque recette possède une vitesse minimale et une vitesse maximale.
+
+Le mini-jeu commence à sa vitesse minimale puis accélère jusqu’à atteindre son plafond.
+
+Une fois la vitesse maximale atteinte, le rythme reste stable.
+
+Cela permet au joueur de trouver une cadence et de continuer sans subir une accélération infinie.
+
+### Exemple
+
+**Objet simple : pain**
+
+- début lent ;
+- accélération douce ;
+- vitesse maximale confortable.
+
+**Objet complexe : épée ouvragée**
+
+- début modéré ;
+- accélération plus rapide ;
+- délai maximal plus serré.
+
+**Objet prestigieux : couronne royale**
+
+- vitesse minimale déjà élevée ;
+- faible marge d’erreur ;
+- vitesse maximale exigeante.
+
+La difficulté ne vient donc pas uniquement de la durée, mais également de la fenêtre de réaction propre à chaque objet.
+
+---
+
+## Lettres du clavier
+
+Une action peut occasionnellement être remplacée par une lettre du clavier.
+
+Cette variation sert à :
+
+- briser les automatismes ;
+- maintenir l’attention ;
+- mélanger souris et clavier ;
+- créer un léger stress pendant les longues séries.
+
+Les lettres doivent rester relativement rares.
+
+Une première valeur de test pourrait être une chance de **10 à 20 %**.
+
+Cette fréquence devra être ajustée selon les résultats du prototype.
+
+---
+
+## Craft collectif
+
+Certaines fabrications importantes peuvent demander plusieurs artisans.
+
+Exemples :
+
+- construire un navire ;
+- ériger un pont ;
+- fabriquer une machine complexe ;
+- terminer une partie d’un château ;
+- produire un objet cérémoniel.
+
+Chaque participant reçoit son propre menu radial et sa propre suite d’actions.
+
+### Exemple
+
+**Forgeron**
+
+- Chauffer
+- Frapper
+- Tremper
+- Polir
+
+**Charpentier**
+
+- Mesurer
+- Scier
+- Raboter
+- Assembler
+
+**Maçon**
+
+- Mélanger
+- Transporter
+- Poser
+- Lisser
+
+Les joueurs peuvent travailler simultanément ou intervenir pendant différentes étapes du chantier.
+
+---
+
+## Dépendances entre artisans
+
+Certaines actions collectives peuvent dépendre du travail d’un autre joueur.
+
+Exemple :
+
+1. le forgeron termine les attaches ;
+2. le charpentier peut assembler la structure ;
+3. le maçon peut ensuite la fixer au bâtiment.
+
+Ces dépendances doivent rester simples et clairement visibles.
+
+Un joueur ne doit pas attendre sans savoir pourquoi son action est bloquée.
+
+Pour le premier prototype, le craft collectif peut fonctionner sans dépendances complexes : chaque joueur contribue simplement à une barre de progression commune.
+
+Les interactions plus avancées pourront être ajoutées après validation du système de base.
+
+---
+
+## Joueurs absents
+
+Un grand projet ne doit pas nécessairement exiger que tous les artisans soient connectés en même temps.
+
+Chaque métier peut contribuer à une étape distincte.
+
+Exemple :
+
+- le forgeron prépare les pièces le matin ;
+- le charpentier les utilise plus tard ;
+- le maçon termine le chantier le soir.
+
+Les contributions sont enregistrées par le serveur jusqu’à l’achèvement du projet.
+
+Les sessions réellement simultanées peuvent être réservées à certains événements particuliers ou aux dernières étapes d’un projet prestigieux.
+
+---
+
+## Échec collectif
+
+Un joueur ne doit pas pouvoir détruire à lui seul le travail de tout un groupe à cause de quelques erreurs.
+
+Une mauvaise performance peut :
+
+- réduire sa contribution ;
+- produire des composants de qualité inférieure ;
+- ralentir légèrement le projet ;
+- augmenter les matériaux nécessaires.
+
+Elle ne doit pas effacer les contributions déjà validées par les autres artisans.
+
+---
+
+## Accessibilité
+
+Le système doit pouvoir être joué :
+
+- uniquement à la souris ;
+- avec le clavier et la souris ;
+- éventuellement uniquement au clavier.
+
+Les actions doivent être accompagnées de signes visuels clairs.
+
+La difficulté ne doit pas reposer uniquement sur les couleurs.
+
+Le joueur doit pouvoir interrompre une longue série entre deux objets sans perdre l’intégralité de sa production.
+
+---
+
+## Effet recherché
+
+Le mini-jeu doit produire :
+
+- une activité légèrement stressante lorsqu’on cherche la performance ;
+- une sensation de rythme ;
+- une impression de maîtrise croissante ;
+- une récompense visible pour les bons artisans ;
+- des moments de coopération pendant les grands projets.
+
+Le joueur doit pouvoir fabriquer tranquillement un objet ordinaire, mais également choisir de pousser sa série plus loin pour obtenir davantage d’objets ou une meilleure qualité.
+
+> Le mini-jeu ne cherche pas à tester la mémoire du joueur.  
+> Il cherche à lui faire ressentir qu’il maîtrise progressivement son métier.
+
+---
+
+## Première version du prototype
+
+La première version devra rester volontairement réduite.
+
+Elle comprendra :
+
+- un seul menu radial de cinq positions ;
+- des actions textuelles ;
+- une cible choisie aléatoirement(avec un ptit effet halo, un son) ;
+- une vitesse minimale ;
+- une accélération ;
+- une vitesse maximale ;
+- cinq erreurs autorisées ;
+- un calcul simple de quantité ;
+- un calcul simple de qualité ;
+- des lettres occasionnelles.
+
+Le craft collectif, les dépendances entre métiers et les effets visuels avancés seront développés seulement après validation de cette première boucle.# Mini-jeu de Craft
 
 ## Philosophie
 
