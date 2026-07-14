@@ -1,0 +1,115 @@
+# Mini-jeu de Craft
+
+## Philosophie
+
+Le mini-jeu de craft est inspiré de Simon, mais met davantage l'accent sur le rythme que sur la mémoire.
+
+L'objectif est de donner au joueur la sensation de maîtriser progressivement son métier sans rendre le craft frustrant.
+
+---
+
+## Déroulement
+
+Lorsqu'un joueur lance une fabrication, une suite d'actions apparaît.
+
+Chaque action correspond :
+
+- à une action du métier (Pétrir, Chauffer, Polir, ...)
+- ou plus rarement à une touche du clavier.
+
+Le joueur dispose de quelques secondes pour valider l'action.
+
+Une fois validée, l'action suivante arrive immédiatement.
+
+Le rythme augmente progressivement jusqu'à atteindre la vitesse maximale de l'objet fabriqué.
+
+---
+
+## Qualité
+
+Le joueur peut effectuer jusqu'à **5 erreurs**.
+
+Une erreur ne recommence jamais la fabrication.
+
+Elle diminue simplement la qualité finale.
+
+Exemple :
+
+- 0 erreur → Qualité parfaite
+- 1 erreur → Très bonne qualité
+- 2 erreurs → Bonne qualité
+- 3 erreurs → Qualité moyenne
+- 4 erreurs → Qualité faible
+- 5 erreurs → Fabrication échouée
+
+Si le joueur clique accidentellement sur l'action suivante, celle-ci reste validée mais compte comme une erreur.
+
+---
+
+## Vitesse
+
+Chaque objet possède :
+
+- une vitesse minimale
+- une vitesse maximale
+
+Le mini-jeu accélère progressivement jusqu'à atteindre cette vitesse.
+
+Exemple :
+
+Pain :
+- départ lent
+- vitesse maximale faible
+
+Épée :
+- départ moyen
+- vitesse maximale élevée
+
+Objet légendaire :
+- départ rapide
+- vitesse maximale très élevée
+
+---
+
+## Menu radial
+
+Le menu radial comporte toujours 5 positions.
+
+Lorsqu'une action est validée, une nouvelle apparaît immédiatement.
+
+Le menu contient principalement des actions liées au métier.
+
+Plus rarement (environ 20 % du temps), une lettre du clavier remplace temporairement une action afin de casser la routine.
+
+Exemple pour un boulanger :
+
+- Pétrir
+- Mouiller
+- Enfariner
+- Laisser reposer
+- Cuire
+
+---
+
+## Fabrication en série
+
+Le joueur peut fabriquer plusieurs objets avec les mêmes matériaux.
+
+Plus il reste concentré, plus :
+
+- il fabrique rapidement ;
+- la qualité augmente ;
+- la sensation de maîtrise s'installe.
+
+---
+
+## Objectif
+
+Le mini-jeu doit être :
+
+- simple à comprendre ;
+- amusant après plusieurs centaines de fabrications ;
+- réutilisable pour tous les métiers ;
+- suffisamment nerveux pour récompenser la maîtrise, sans devenir frustrant.
+
+
